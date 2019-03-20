@@ -1,0 +1,29 @@
+{
+  "solidity.linter": "solium",
+  "solidity.packageDefaultDependenciesDirectory": "installed_contracts",
+  "solidity.packageDefaultDependenciesContractsDirectory": "contracts",
+  "solidity.enabledAsYouTypeCompilationErrorCheck": true,
+  "solidity.soliumRules": {
+    "security/no-inline-assembly": 0,
+    "security/no-block-members": 0,
+    "indentation": [
+      "error",
+      4
+    ],
+    "quotes": [
+      "error",
+      "double"
+    ],
+  },
+  // "solidity.solhint.enabled": false,
+  // "solidity.solium.enabled": true,
+  // "solidity.solium.rules": {
+  //   "extends": "solium:recommended",
+  //   "rules": {
+  //     "imports-on-top": 0,
+  //     "variable-declarations": 0,
+  //     "indentation": ["error", 2],
+  //     "quotes": ["error", "double"]
+  //   }
+  // }
+}
